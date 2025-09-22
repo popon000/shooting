@@ -42,3 +42,4 @@ ctx.fillStyle = "white";
 }
 
 gameLoop();
+}
