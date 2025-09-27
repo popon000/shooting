@@ -62,7 +62,7 @@ function draw() {
    ctx.fillStyle = "white";
    ctx.fillRect(bullet.x, bullet.y, bullet.width, bullet.height);
  }
-
+}
 
 function gameLoop() {
   update();
@@ -71,4 +71,4 @@ function gameLoop() {
 }
 
 gameLoop();
-}
+
