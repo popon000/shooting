@@ -35,7 +35,7 @@ export function handleCollisions() {
       { x: e.x, y: e.y, width: e.width, height: e.height }
     )) {
       player.life -= 1;
-      if(player.life <=0){
+      if(player.life <= 0) {
         document.location.reload();
       }
       enemies.splice(ei, 1);
